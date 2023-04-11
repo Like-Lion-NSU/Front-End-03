@@ -1,0 +1,249 @@
+body{
+    text-align: center;
+    font-family:'Roboto';
+    src: url(C:\Users\jyn04\정인\Front-End-03\정인\과제\Roboto\Roboto-Thin.ttf);
+}
+
+.top_menu{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 30px;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+.top_btn:hover{
+    transform: scale(2);
+}
+
+#top_button:hover{
+    transform: scale(2);
+}
+
+#top_in:hover{
+    transform: scale(2);
+}
+
+.top_btn{
+    background-color:transparent;
+    color: white;
+    border:none;
+}
+
+button{
+    background-color: transparent;
+    border:none;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer_p{
+    color: white;
+    text-decoration-line : none;
+    font-size: larger;
+}
+
+.main_menu{
+    background-color: #FBFBFD;
+    padding: 20px;
+}
+
+.main_p{
+    display: flex;
+    justify-content: center;
+    text-decoration-line : none;
+} 
+
+p{
+    color: #A8A8AB;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px;
+    
+}
+
+a{
+    color: black;
+    text-decoration:none;
+}
+
+#end{
+    background-color: #0077ED;
+    color: white;
+    border:none;
+    border-radius: 20px;
+    padding: 7px 15px;
+    font-size: large;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+h3{
+    font-size: x-large;
+}
+
+h6{
+   font-size:xx-large;
+   justify-content: center;
+    
+}
+
+a:hover{
+    color: #0077ED;
+}
+
+#more{
+    color: #0077ED;
+}
+
+#more:hover{
+    text-decoration: underline;
+}
+
+#front_page{
+    color: white;
+    text-decoration-line : none;
+}
+
+#submit{
+    background-color: #0077ED;
+    color: white;
+    border:none;
+    border-radius: 20px;
+    padding: 7px 15px;
+    font-size: large;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+h2{
+    margin-left: 30px;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-left: 0px;
+    border-bottom: 1px solid black;
+    padding-left: 230px;
+}
+
+.option2{
+    display: flex;
+    padding-top: 23px;
+    padding-bottom: 0px;
+    
+}
+
+#it1{
+    padding-right: 15px;
+}
+
+#it2{
+    padding-right: 15px;
+}
+
+#it3{
+    padding-right: 290px;
+    padding-left: 4px;
+}
+
+.input_A{
+    display: flex;
+    justify-content:center;
+   
+}
+
+.input_A_a{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 65px; 
+    width: 190px;
+    height: 54px;
+}
+
+.input_A_b{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 65px;
+    margin-left: 30px;
+    width: 190px;
+    height: 54px;
+}
+
+
+.input_B input{
+    width: 414px;
+    height: 54px;
+}
+
+.input_B_a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input_B_b{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input_B_c{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input_B_d{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.option_A{
+    width: 414px;
+    height: 55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.final{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.submit_B{
+    margin-top: 20px;
+}
+
+.check_2{
+    margin-top: 10px;
+}
+
+.check_1{
+    margin-top: 10px;
+}
+
+.check_0{
+    margin-top: 10px;
+}
+
+.img_i:hover{
+    filter:brightness(60%);
+    filter:blur(5px);
+}

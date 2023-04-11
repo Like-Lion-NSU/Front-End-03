@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple ID 생성</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top_menu">
+            <button><i class="fa-brands fa-apple" id="top_button"></i></button> <br>
+            <input type="button" value="스토어" class="top_btn"> <br>
+            <input type="button" value="Mac" class="top_btn"> <br>
+            <input type="button" value="iPad" class="top_btn"> <br>
+            <input type="button" value="iPhone" class="top_btn"> <br>
+            <input type="button" value="Watch" class="top_btn"> <br>
+            <input type="button" value="AirPods" class="top_btn"> <br>
+            <input type="button" value="악세서리" class="top_btn"> <br>
+            <input type="button" value="고객지원" class="top_btn"> <br>
+            <button><i class="fa-solid fa-magnifying-glass" id="top_button"></i></button> <br>
+        </div>
+    </header>
+        <div class="option">
+            <h2>Apple ID</h2>
+                <div class="option2">
+                    <p id="it1">로그인</p>
+                    <p id="it2">Aplle ID</p>
+                    <p id="it3">FAQ</p>
+                </div>    
+        </div>        
+    <p><h3>Apple ID 생성</h3></p>
+    하나의 Apple ID 하나로 모든 Apple 서비스를 이용할 수 있습니다.
+    <section> 
+        <form action="http://localhost/method.php" method="post">
+            <div class="input_A">
+                <label for="first name">
+                    <input type="text" name="firstname" placeholder="성" id="first name" title="성을 입력해주세요." required class="input_A_a"></label> <br>
+                <label for="last name">
+                    <input type="text" name="last name" placeholder="이름" id="last name" title="이름을 입력해주세요." required class="input_A_b"></label> <br>
+            </div>
+                <label for="con"><select name="국번" id="con" title="국번을 선택해주세요." class="option_A"> <br>
+                    <option value="seclect1" required>대한민국(+82)</option>
+    </select>
+                </label> <br>
+
+        <div class="input_B">
+            <label for="number"></label>
+                <input type="tel" name="tel" placeholder="전화번호" id="number" title="전화번호를 입력해주세요." required class="input_B_a"> <br>
+            <label for="birthday">
+                <input type="date" name="birthday" id="birthday" title="생일을 입력해주세요." required class="input_B_b"></label> <br>
+            <label for="email">
+                <input type="email" name="email" id="email" placeholder="name@example.com" title="이메일을 입력해주세요." required class="input_B_c"></label> <br>
+            <label for="pwd">
+                <input type="password" name="pwd" id="pwd" placeholder="암호" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8,16}$" title="비밀번호를 입력해주세요." required class="input_B_d"> <br>
+        </div>
+        <div class="final">
+                </label>
+                번호 확인 방법 <label for="radio1"><input type="radio" name="msg" id="radio1" title="문자 확인" required><label for="radio1" >문자 메시지</label>
+                <label for="radio2"><input type="radio" name="msg" id="radio2" title="음성 확인" required class="check_0"><form for="radio2">음성 메시지 <br>
+                <label for="check1"><input type="checkbox" name="ma" id="check1" required class="check_1">광고수신동의</label> <br>
+                <label for="check2"><input type="checkbox" name="person" id="check2" required class="check_2">개인정보수집동의</label> <br>
+                <label for="submit"><input type="submit" name="submit" id="submit" value="가입하기" class="submit_B"></label>
+        </div>
+    </form>
+</section>
+<footer><a href="main.html" id="front_page">이전 페이지</a></footer>
+            
+</body>
+</html>
