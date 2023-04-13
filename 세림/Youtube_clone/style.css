@@ -1,0 +1,34 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    height: 33px;
+    width: 33px;
+}
+
+.logo span{
+    font-size: x-large;
+}
+.logo sup{
+    font-size: x-small;
+    color: gray;
+}
+
+.logo #hhh{
+    color: red;
+}
+
+.search input{
+    height: 39px;
+    width: 540px;
+    border-radius: 20px;
+}
+
+.search button
