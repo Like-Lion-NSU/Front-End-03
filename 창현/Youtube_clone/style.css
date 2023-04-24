@@ -1,0 +1,313 @@
+html{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+/* logo */
+header{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-bottom: 5px;
+    padding-top:5px;
+}
+
+header .logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding:0 24px;
+}
+
+header .logo .fa-solid{
+    color:#030303;
+}
+
+header .logo .fa-brands{
+    margin-left:24px;
+    color:red;
+    font-size:30px;
+}
+
+header .logo .logo_name{
+    margin-left: 5px;
+    font-weight: bolder;
+}
+
+header .logo .logo_country{
+    font-size:5px;
+    position: absolute;
+    top:0;
+    right:8px;
+}
+
+/* 검색창 */
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search .search_button{
+    position:relative;
+}
+
+.search .search_button input{
+    width:540px;
+    height:39px;
+    border-radius: 20px;
+    border-color: #c6c6c6;
+}
+
+.search .search_button button{
+    height: 39px;
+    width:70px;
+    border-radius: 0px 20px 20px 0px;
+    position:absolute;
+    right:0px;
+    border-color: #c6c6c6;
+}
+
+.search .search_button .fa-keyboard{
+    position:absolute;
+    right:15%;
+    top:19px;
+}
+
+.search .fa-microphone{
+    margin-left: 22px;
+}
+
+/* info */
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0 24px;
+}
+
+.info img{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    margin-left: 22px;
+}
+
+.info .fa-bell{
+    margin-left: 22px;
+}
+
+/* main */
+main{
+    width:100%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+/* section1 */
+.section1{
+    width:940px;
+}
+
+/* player */
+.player iframe{
+    width:100%;
+    height:530px;
+}
+
+/* profile */
+.profile .profile_title{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 12px 0px;
+}
+
+.profile .profile_btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile .profile_btn .profile_btn_sub{
+    display: flex;
+}
+
+.profile .profile_btn .profile_btn_sub .profile_btn_sub_user{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.profile .profile_btn .profile_btn_sub .profile_btn_sub_name{
+    margin-left: 12px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_btn_sub_name_owner{
+    font-size: 18px;
+}
+
+.profile_btn_sub_name_people{
+    font-size: 12px;
+}
+
+.profile_btn_sub_btn{
+    width:60px;
+    height: 35px;
+    border-radius: 20px;
+    background-color:black;
+    color:white;
+    border: none;
+}
+
+.profile_btn_like{
+    display: flex;
+}
+
+.profile_btn_like button{
+    border:none;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.profile_btn_like .profile_btn_like_col{
+    position: relative;
+}
+
+.profile_btn_like button span{
+    margin-left: 10px;
+}
+
+.profile_btn_like .profile_btn_like_btn1{
+    width:130px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.profile_btn_like .profile_btn_like_btn2{
+    position: absolute;
+    border-radius: 0px 20px 20px 0px;
+    width:55px;
+    height: 35px;
+    right:0;
+}
+
+.profile_btn_like .profile_btn_like_btn3{
+    width:81px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.profile_btn_like .profile_btn_like_btn4{
+    width:145px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.profile_btn_like .profile_btn_like_btn5{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+}
+
+/* more info */
+.more_info{
+    margin-top: 15px;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    padding:15px;
+}
+
+.more_info span{
+    display:block;
+}
+
+.more_info ul{
+    display: flex;
+    list-style: none;
+    color:#065fd4;
+    padding:0;
+    margin: 0;
+}
+
+.more_info ul li{
+    margin-left: 2px;
+}
+
+.more_info .more_info_content{
+    margin-top: 10px;
+}
+
+.more_info .more_info_btn{
+    display: inline;
+    border: none;
+    background-color:#e5e5e5;
+    font-weight: 600;
+}
+
+/* upnext */
+.section2{
+    margin-left: 27px;
+}
+
+.upnext{
+    display: flex;
+    width:400px;
+}
+
+.upnext_image img{
+    width:165px;
+    height: 95px;
+    border-radius: 10px;
+}
+
+.upnext .upnext_text{
+    margin-left: 10px;
+}
+
+.upnext_text_title{
+    margin-bottom:10px;
+    font-size:14px;
+}
+
+.upnext_text_owner{
+    font-size:12px;
+}
+
+.upnext_text_view{
+    font-size:12px;
+}
+
+/* media query */
+@media(max-width:1000px){
+    main{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section1{
+        margin-right: 0px;
+    }
+
+    .section2{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}
