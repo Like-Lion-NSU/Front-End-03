@@ -1,34 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
 html{
     padding: 0;
     margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-}
+/* 헤더 */
 
-header img{
-    height: 33px;
-    width: 33px;
-}
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        padding: 0 16px;
+    
+    }
 
-.logo span{
-    font-size: x-large;
-}
-.logo sup{
-    font-size: x-small;
-    color: gray;
-}
+/* logo css */
 
-.logo #hhh{
-    color: red;
-}
+    .logo span{
+        font-size: x-large;
+    }
 
-.search input{
-    height: 39px;
-    width: 540px;
-    border-radius: 20px;
-}
+    .logo sup{
+        font-size: x-small;
+        color: gray;
+    }
 
-.search button
+    .logo #red{
+        color: red;
+        padding: 18px 0 10px 16px;
+    }
+
+    .bold, #tv{
+        font-weight: bold;
+    }
+
+/* search css */
+
+    .search input{
+        height: 39px;
+        width: 540px;
+        border-radius: 20px;
+    }
+
+    .search button{
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+
+/* info css */
+
+    .info #infoviedo{
+        padding: 6px;
+    }
+
+    .info #infobell{
+        padding: 6px;
+    }
+
+    .info img{
+        height: 33px;
+        width: 33px;
+        padding: 6px;
+    }
+
+
+/* 메인 */
+
+    .title{
+        font-size: x-large;
+    }
+
+/* sub css */
+
+    .sub{
+        display: flex;
+    }
+
+    .sub .name{
+        display: flex;
+        align-items: center;
+    }
+
+    .sub img{
+        height: 40px;
+        width: 40px;
+        border-radius: 30px;
+    }
+
+    .sub button{
+        padding: 6px 13px;
+        border-radius: 17px;
+        color: white;
+        background-color: black;
+    }
+
+
+/* 섹션 */
+
+    .image img{
+        height: 60px;
+        width: auto;
+    }
