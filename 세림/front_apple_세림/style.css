@@ -26,7 +26,7 @@ a{
 li{
     list-style: none;
 }
-.이미지, .텍스트{
+.이미지, .글자{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,6 +89,8 @@ footer a, footer{
     color: white;
     padding: 20px;
 }
+
+
 #구입하기, #가입하기{
     border-radius: 40px;
     padding: 10px;
