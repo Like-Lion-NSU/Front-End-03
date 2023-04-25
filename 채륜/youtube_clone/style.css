@@ -1,0 +1,140 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    margin-bottom: 10px;
+}
+
+header img{
+    width: 30px;
+    height: 30px;
+}
+
+header .search input{
+    width: 540px;
+    height: 39px;
+    border-radius: 20px;
+} 
+
+header .search button{
+    border: none;
+    background-color: white;
+}
+
+header .info{
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.player iframe{
+    width: 100%;
+    max-width: 1050px;
+
+}
+
+.main .title h1{
+    margin: 10px 0px;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    display: flex;
+}
+
+.sub img{
+    border-radius: 2em;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.name{
+    display:flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.name .title1{
+    font-size: 16px;
+}
+.name .sub1{
+    font-size: 12px;
+}
+
+.btn button{
+    color: whitesmoke;
+    border-radius: 25px;
+    padding: 7px 15px;
+    margin: 7px;
+    background-color: black;
+    border: none;
+    font-size: 16px;
+}
+
+.like button{
+    border-radius: 40%;
+    padding: 2px 15px 2px 15px;
+    height: 35px;
+    border: none;
+}
+
+.more_info button{
+    border: none;
+    background-color: white;
+}
+.img img{
+    width: 170px;
+    height: 95px;
+    border-radius: 7px;
+    margin: 0px 10px 0px 0px;
+}
+
+section .upnext{
+    display: flex;
+}
+
+.text .wpahr{
+    font-size: 14px;
+    margin: 0px 0px 4px;   
+}
+.text .dlfma{
+    font-size: 12px;
+}
+.text .whghltn{
+    font-size: 12px;
+}
+
+@media (min-width: 1050px){
+    .main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    main {
+        flex-basis: auto;
+        width: 60%;
+    }
+    section{
+        flex-basis: auto;
+        width: 40%;
+    }
+    .upvideo{
+        display: flex;
+        flex-direction: column;
+    }
+    .upnext{
+        margin-left: 10px;
+        display: flex;
+    }
+}
