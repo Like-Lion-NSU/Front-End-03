@@ -1,0 +1,177 @@
+1.  답 : 3번
+    (x는 4보다 크기 때문에 if 조건문을 실행한다.)
+
+2.  답 : Number,Number, a > b, a === b
+    (Number는 숫자로 받아준다.
+     a가 b 보다 클 때, a와 b가 같을 때 ==과 ===이 있는데 ===은 타입과 값이 일치한 지를 묻는다.)
+
+3.  답 : &&
+    (and연산자 좌측에 있는 조건도 맞아야하고, 우측에 있는 조건도 맞아야 한다.)
+
+4.  답 : if (a > 0) {
+        alert('입력한 숫자는 양수입니다.')
+    } else if (a == 0) {
+        alert('입력한 숫자는 0입니다.')
+    } else {
+        alert('입력한 숫자는 음수입니다.')
+    }
+
+5.  답 : if (a % 2 == 0) {
+        alert('입력한 숫자는 짝수입니다.')
+    } else {
+        alert('입력한 숫자는 홀수입니다.')
+    }
+    (%는 나머지를 구하는 연산자이다. a를 2로 나눈 나머지가 0이면 짝수 1이면 홀수.)
+
+6.  답 : if (a < 3 || a === 12) {
+        alert('겨울입니다.')
+    } else if (a < 6) {
+        alert('봄입니다.')
+    } else if (a < 9) {
+        alert('여름입니다.')
+    } else if (a < 12) {
+        alert('가을입니다.')
+    } else {
+        alert('1 ~ 12 사이의 숫자를 입력해주세요.')
+    }
+    (||는 or연산자이다. 좌측 조건 또는 우측 조건을 만족하면 실행된다.)
+
+7.  답 : 버튼을 클릭해주세요 라는 창이 뜰 것이다.
+    (100이 200보다 작기 때문에 false가 되고, 거짓일 때는 후행이 실행된다.)
+
+8.  답 : switch (e){
+    case 0:
+        result = '원숭이'
+        break;
+    case 1:
+        result = '닭'
+        break;
+    case 2:
+        result = '개'
+        break;    
+    case 3:
+        result = '돼지'
+        break;
+    case 4:
+        result = '쥐'
+        break;
+    case 5:
+        result = '소'
+        break;
+    case 6:
+        result = '호랑이'
+        break;
+    case 7:
+        result = '토끼'
+        break;
+    case 8:
+        result = '용'
+        break;
+    case 9:
+        result = '뱀'
+        break;
+    case 10:
+        result = '말'
+        break;
+    case 11:
+        result = '양'
+        break;
+    default :
+        break;
+    }
+    alert(year + '년에 태어났다면 ' + result + ' 띠입니다.')
+
+9.  답 : switch (year % 10){
+            case 0:
+                간 = '경'
+                break;
+            case 1:
+                간 = '신'
+                break;
+            case 2:
+                간 = '임'
+                break;    
+            case 3:
+                간 = '계'
+                break;
+            case 4:
+                간 = '갑'
+                break;
+            case 5:
+                간 = '을'
+                break;
+            case 6:
+                간 = '병'
+                break;
+            case 7:
+                간 = '정'
+                break;
+            case 8:
+                간 = '무'
+                break;
+            case 9:
+                간 = '기'
+                break;
+            default :
+                break;
+        }
+
+            switch (year % 12){
+            case 0:
+                띠 = '신'
+                break;
+            case 1:
+                띠 = '유'
+                break;
+            case 2:
+                띠 = '술'
+                break;    
+            case 3:
+                띠 = '해'
+                break;
+            case 4:
+                띠 = '자'
+                break;
+            case 5:
+                띠 = '축'
+                break;
+            case 6:
+                띠 = '인'
+                break;
+            case 7:
+                띠 = '묘'
+                break;
+            case 8:
+                띠 = '진'
+                break;
+            case 9:
+                띠 = '사'
+                break;
+            case 10:
+                띠 = '오'
+                break;
+            case 11:
+                띠 = '미'
+                break;
+            default :
+                break;
+        }
+        alert(year + '년은 ' + 간 + 띠 +' 년입니다.')
+
+10. 답 : 4번 else
+
+11. 답 : 3번 (||식은 앞 문장이 거짓일 때 후행을 실행한다.)
+
+12. 답 : 2, 배, 273
+
+13. 답 : 4, 5 (length 길이 출력, push 배열에 새로운 값 추가. 길이 늘어남.)
+
+14. 답 : 비파괴적 처리, 파괴적 처리, 비파괴적 처리, 비파괴적 처리
+        (split 구분자를 기준으로 분리해 배열로 반환함, push 새로운 배열 추가, map 각 요소를 변환하여 새로운 배열을 만듦, trim 새로운 문자열을 반환.)
+
+15. 답 : 0, 1, 2, 3, 사과, 배, 귤, 바나나
+        (in은 객체 속성 순회, of는 배열의 요소 순회)
+
+16. 답 : for (int i = 1 ; i < 101; i++) {
+        output *= i
+    }
