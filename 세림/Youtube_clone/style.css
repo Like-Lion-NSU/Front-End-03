@@ -74,6 +74,35 @@ html{
         font-size: x-large;
     }
 
+    .like button{
+        border: none;
+        background-color: rgb(227, 227, 227);
+        border-radius: 15px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .more_info{
+        background-color: rgb(227, 227, 227);
+        padding-bottom: 20px;
+        border-radius: 20px;
+    }
+
+    main .more_info span{
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+    main #hashtag{
+        padding-top: 10px;
+    }
+
+    .more_info button{
+        border: none;
+        background-color: rgb(227, 227, 227);
+    }
+
 /* sub css */
 
     .sub{
@@ -92,8 +121,8 @@ html{
     }
 
     .sub button{
-        padding: 6px 13px;
-        border-radius: 17px;
+        padding: 4px 15px;
+        border-radius: 19px;
         color: white;
         background-color: black;
     }
@@ -101,7 +130,16 @@ html{
 
 /* 섹션 */
 
+    section{
+        display: flex;
+    }
+
+    section .upnext{
+        display: flex;
+    }
+
     .image img{
-        height: 60px;
-        width: auto;
+        height: 94px;
+        width: 168px;
+        border-radius: 15px;
     }
