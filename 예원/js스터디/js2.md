@@ -90,4 +90,13 @@ else if을 이용하면 조건문을 좀 더 풍부하게 할 수 있다.
       + false || true = true
       + flase || false = false 
       
- - !
+ - ! 
+      + '!'는 부정의 의미로, Boolean의 값을 역전시킴 
+      + true를 false로 false를 true로 만듬 
+      + not 연산자라고 부른다. 
+      
+      
+      
+      
+ ## 6.반복문 
+ ### 
