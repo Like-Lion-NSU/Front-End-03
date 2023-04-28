@@ -1,0 +1,24 @@
+.h_logo{
+   display: block;
+    width: 240px;
+    height: 44px;
+    background-image: url(https://static.nid.naver.com/images/ui/join/m_naver_logo_20191126.png);
+    background-size: 100%;
+    background-position: 0 50% 50% 0;
+    font-size: 0;
+}
+.blind{
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    text-align: center;
+}
+
+#id{
+    height: 50px;
+    width: 460px;
+}
