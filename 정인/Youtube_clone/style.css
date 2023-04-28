@@ -1,0 +1,61 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 28px;
+    margin-right: 15px;
+}
+
+header img{
+    width: 33px;
+    height: 33px;
+    border-radius: 20px;
+}
+
+header .search input{
+    width: 540px;
+    height: 39px ;
+    border-radius: 20px;
+}
+
+header .search button{
+    width: 33px;
+    height: 33px;
+}
+
+header span{
+    font-size: large;
+    font-weight: bold;
+}
+
+main{
+    margin-top: 30px;
+}
+
+.player{
+    margin-left: 112px;
+    margin-right: 537px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 112px;
+    letter-spacing: -1.5px;
+}
+
+main img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-left: 112px;
+}
