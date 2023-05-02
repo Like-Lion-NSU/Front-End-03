@@ -1,0 +1,16 @@
+.item{
+    border: 1px solid black;
+}
+
+.container{
+    padding: 2px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width : 800px){
+    .item{
+        border: none;
+    }
+}
