@@ -1,0 +1,291 @@
+/* 헤헤헤헤더더더더 */
+
+header{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+header h1{
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+    height: 44px;
+    background-image: url(https://static.nid.naver.com/images/ui/join/m_naver_logo_20191126.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 240px auto;
+}
+
+
+/* 바디 */
+
+body{
+    background-color: rgb(246, 246, 246);
+}
+
+
+/* 메인 */
+
+main{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+}
+
+/* 아이디 */
+
+.id label{
+    font-weight: bold;
+}
+
+#id묶음{
+    position: relative;
+    display: block;
+    border:  1px solid rgb(201, 200, 200);
+    background-color: white;
+    width: 98%;
+    height: 55px;
+    margin-top: 5px;
+    padding-right: 4px;
+
+}
+
+#id묶음 input{
+    position: relative;
+    border: none;
+    outline: none;
+    width: 370px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+#id묶음 .backurl{
+    position: absolute;
+    border: none;
+    background-color: white;
+    margin-top: 13px;
+    position: absolute;
+    color: gray;
+}
+
+/* 비밀번호 */
+
+.pwd{
+    margin-top: 15px;
+}
+
+.pwd label{
+    font-weight: bold;
+}
+
+.pwd input{
+    display: block;
+    border:  1px solid rgb(201, 200, 200);
+    width: 98%;
+    height: 50px;
+    margin-top: 5px;
+}
+
+/* 비밀번호 재확인 */
+
+.repwd{
+    margin-top: 15px;
+}
+
+.repwd label{
+    font-weight: bold;
+}
+
+.repwd input{
+    display: block;
+    border:  1px solid rgb(201, 200, 200);
+    width: 98%;
+    height: 50px;
+    margin-top: 5px;
+}
+
+/* 이름 */
+
+.name{
+    margin-top: 37px;
+}
+
+.name label{
+    font-weight: bold;
+}
+
+.name input{
+    display: block;
+    border:  1px solid rgb(201, 200, 200);
+    width: 98%;
+    height: 50px;
+    margin-top: 5px;
+}
+
+/* 생년월일 */
+
+.birth{
+    margin-top: 15px;
+}
+
+.birth label{
+    display: block;
+    font-weight: bold;
+}
+
+.birth #yy, .birth #dd{
+    border: 1px solid rgb(201, 200, 200);
+    width: 145px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.birth #month{
+    border: 1px solid rgb(201, 200, 200);
+    width: 150px;
+    height: 52px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+/* 성별 */
+
+.gender{
+    margin-top: 15px;
+}
+
+.gender label{
+    font-weight: bold;
+}
+
+.gender #sex{
+    border:  1px solid rgb(201, 200, 200);
+    width: 99%;
+    height: 50px;
+    margin-top: 5px;
+}
+
+/* 본인확인이메일 */
+
+
+.email{
+    margin-top: 15px;
+}
+
+.email label{
+    font-weight: bold;
+}
+
+.email span{
+    font-size: xx-small;
+    color: lightgray;
+    font-weight: bold;
+}
+
+.email input{
+    border:  1px solid rgb(201, 200, 200);
+    width: 98%;
+    height: 50px;
+    margin-top: 5px;
+}
+
+/* 휴대전화 */
+
+.phone{
+    margin-top: 15px;
+}
+
+.phone label{
+    font-weight: bold;
+}
+
+.phone #tel{
+    border:  1px solid rgb(201, 200, 200);
+    width: 99%;
+    height: 50px;
+    margin-top: 5px;
+}
+
+/* 전화번호입력 */
+
+.type{
+    margin-top: 5px;
+}
+
+.type input{
+    border:  1px solid rgb(201, 200, 200);
+    width: 72%;
+    height: 50px;
+    margin-top: 5px;
+}
+
+/* 인증번호받기버튼 */
+
+
+.phone button{
+    background-color: rgb(105, 221, 105);
+    color: white;
+    width: 23%;
+    height: 50px;
+    margin-left: 2%;
+    border: none;
+}
+
+/* 인증번호를 입력하세요 */
+
+.check{
+    margin-top: 5px;
+}
+
+.check input{
+    border:  1px solid rgb(201, 200, 200);
+    width: 98%;
+    height: 50px;
+    margin-top: 5px;
+}
+
+/* 가입하기 */
+
+.ok input{
+    border: none;
+    width: 99%;
+    height: 50px;
+    background-color: rgb(105, 221, 105);
+    color: white;
+    font-size: large;
+    margin-top: 30px;
+}
+
+
+/* 푸푸푸푸터 */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul li{
+    font-size: 12px;
+    white-space: nowrap;
+    position: relative;
+    display: inline;
+    padding: 0 3px 0 7px;
+    background: url(https://static.nid.naver.com/images/join/pc/bu_bar_2x.gif) left 50% no-repeat;
+    background-size: 1px 10px;
+}
+
+footer .copy{
+    font-size: 12px;
+    position: relative;
+    display: inline;
+    white-space: nowrap;
+}
+
+footer #right{
+    padding: 0 0 0 4px;
+}
+footer #corp{
+    font-weight: bold;
+}
