@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네이버 : 회원가입</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Naver_Icon.png">
+    
+</head>
+<body>
+    <header>
+        <img src="Naver logo.png">
+    </header>
+
+    <main>
+        <div class="privacy">
+            <span id="nickname">아이디</span>
+                <input type="text" name="id" class="아이디" placeholder="@naver.com">
+
+            <span id="psw">비밀번호</span>
+                <input type="password" name="password" class="비밀번호">
+
+            <span id="psw_che">비밀번호 재확인</span>
+                <input type="password" name="password_check" class="비밀번호_재확인">
+
+            <span id="all_name">이름</span>
+                <input type="text" name="name" class="이름">
+
+            <span id="bir_date">생년월일</span>
+                <div class="birthday">
+                    <input type="text" name="year" class="년" placeholder="년(4자)" class="생년월일">
+                        <select name="month" class="월">
+                            <option value="">월</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    <input type="text" name="day" class="날짜" placeholder="일">
+                </div>
+                <span id="gender">성별</span>
+                    <select name="sex" class="성별">
+                        <option value="">성별</option>
+                        <option value="1">남자</option>
+                        <option value="2">여자</option>
+                        <option value="3">선택안함</option>
+                    </select>
+                <div class="useremail">
+                    <span>본인 확인 이메일</span>
+                    <span class="choice">(선택)</span>
+                </div>
+                    <input type="text" name="email_check" class="이메일_확인">
+
+            <span id="phonenum">휴대전화</span>
+                <select name="tel_num" class="국제전화번호">
+                    <option value>대한민국 +82</option>
+                    <option value="1">가나 +233</option>
+                    <option value="2">가봉 +241</option>
+                    <option value="3">가이아나 +592</option>
+                    <option value="4">감비아 +220</option>
+                    <option value="5">과테멜라 +502</option>
+                    <option value="6">괌 +1 671</option>
+                    <option value="7">그레나다 +1 473</option>
+                    <option value="8">그리스 +30</option>
+                    <option value="9">기니 +224</option>
+                    <option value="10">기비니사우 +245</option>
+                    <option value="11">나미비아 +264</option>
+                    <option value="12">나우루 +674</option>
+                    <option value="13">나이지리아 +234</option>
+                    <option value="14">남극, 오스트레일리아의외 +672</option>
+                    <option value="15">남아프리카공화국 +27</option>
+                    <option value="16">네덜란드 +31</option>
+                    <option value="17">네덜란드령보네르 +599</option>
+                    <option value="18">네덜란드령아루바 +297</option>
+                    <option value="19">네팔 +977</option>
+                    <option value="20">노르웨이 +47</option>
+                    <option value="21">뉴질랜드 +64</option>
+                    <option value="22">뉴질랜드령니우에 +683</option>
+                    <option value="23">뉴질랜드령토켈라우제도 +690</option>
+                    <option value="24">니제르 +227</option>
+                    <option value="25">니카라과 +505</option>
+                    <option value="26">대한민국 +82</option>
+                    <option value="27">덴마크 +45</option>
+                    <option value="28">덴마크령그린란드 +299</option>
+                    <option value="29">덴마크령페로제도 +298</option>
+                    <option value="30">도미니카공화국 +809</option>
+                    <option value="31">도미니카공화국 2 +1 829</option>
+                    <option value="32">도미니카공화국 3 +1 849</option>
+                    <option value="33">독일 +49</option>
+                    <option value="34">동티모르 +670</option>
+                    <option value="35">라오스 +856</option>
+                    <option value="36">라이베리아 +231</option>
+                    <option value="37">라트비아 + 371</option>
+                    <option value="38">러시아/카자흐스탄 +7</option>
+                    <option value="39">레바논 +961</option>
+                    <option value="40">레소토 +266</option>
+                    <option value="41">루마니아+7</option>
+                </select>
+
+                <div class="yournumber">
+                    <input type="text" name="pnum" class="휴대폰번호" placeholder="전화번호 입력">
+                        <button class="cnbtn">인증번호 받기</button>
+                    </div>    
+                    <input type="text" name="Cnnum" class="cnnumin" placeholder="인증번호 입력하세요">
+                        <button class="join">가입하기</button>
+                    <span>이용약관 | 개인정보처리방침 | 책임의 한계와 법적고지 | 회원정보 고객센터</span>
+                    <div class="bottom">
+                        <img src="Naver logo.png" class="bottom_logo">
+                        <span>Copyright NAVER Corp. All Rights Reserved.</span>
+                    </div>
+        </div>
+    </main>
+</body>
+</html>
