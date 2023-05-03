@@ -1,0 +1,189 @@
+html{
+    background-color: #F5F6F7;
+}
+
+body{
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+header img{
+    margin-top: 60px;
+    width: 200px;
+    height: 45px;
+}
+
+.privacy{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.아이디{
+    margin-left: auto; 
+    margin-right: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 50px;
+    width: 460px;
+}
+
+.비밀번호{
+    margin-left: auto; 
+    margin-right: auto;
+    padding-left: 8px;
+    height: 50px;
+    width: 460px;
+}
+
+.비밀번호_재확인{
+    margin-left: auto; 
+    margin-right: auto;
+    padding-left: 8px;
+    height: 50px;
+    width: 460px;
+}
+
+.이름{
+    margin-left: auto; 
+    margin-right: auto;
+    padding-left: 8px;
+    height: 50px;
+    width: 460px;
+}
+
+.년{
+    padding-left: 8px;
+    width: 145px;
+    height: 50px;
+}
+
+.월{
+    width: 145px;
+    height: 54.6px;
+}
+
+.날짜{
+    padding-left: 8px;
+    width: 145px;
+    height: 50px;
+}
+
+.성별{
+    margin-left: auto; 
+    margin-right: auto;
+    width: 460px;
+    height: 50px;
+}
+
+.이메일_확인{
+    margin-left: auto; 
+    margin-right: auto;
+    padding-left: 8px;
+    width: 450px;
+    height: 50px;
+}
+
+
+.국제전화번호{
+    margin-left: auto; 
+    margin-right: auto;
+    padding-left: 8px;
+    width: 460px;
+    height: 50px;
+}
+
+.휴대폰번호{
+    margin-top: 10px;
+    padding-left: 8px;
+    width: 330px;
+    height: 50px;
+}
+
+.cnbtn{
+    width: 115px;
+    height: 54.5px;
+    background-color: #03C75B;
+    color: white;
+    border: none;
+    font-size: medium;
+}
+
+.cnnumin{
+    margin-top: 10px;
+    margin-left: auto; 
+    margin-right: auto;
+    padding-left: 8px;
+    width: 450px;
+    height: 50px;
+}
+
+.join{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 460px;
+    height: 50px;
+    background-color: #03C75B;
+    color: white;
+    border: none;
+    font-size: large;
+}
+
+.bottom_logo{
+    width: 50px;
+    height: 10px;
+}
+
+#nickname{
+    margin-right: 425px;
+    padding-bottom: 5px;
+}
+
+#psw{
+    margin-top: 30px;
+    margin-right: 405px;
+    padding-bottom: 5px;
+}
+
+#psw_che{
+    margin-top: 30px;
+    margin-right: 350px;
+    padding-bottom: 5px;
+}
+
+#all_name{
+    margin-top: 30px;
+    margin-right: 435px;
+    padding-bottom: 5px;
+}
+
+#bir_date{
+    margin-top: 30px;
+    margin-right: 400px;
+    padding-bottom: 5px;
+}
+
+#gender{
+    margin-top: 30px;
+    margin-right: 430px;
+    padding-bottom: 5px;
+}
+
+.useremail{
+    margin-top: 30px;
+    margin-right: 290px;
+    padding-bottom: 5px;
+}
+
+#phonenum{
+    margin-top: 30px;
+    margin-right: 400px;
+    padding-bottom: 5px;
+}
+
+.아이디::-webkit-input-placeholder{
+    text-align: right;
+}
