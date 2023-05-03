@@ -40,6 +40,15 @@ html{
 
 /* search css */
 
+    .search{
+        display: flex;
+        justify-content: center;
+    }
+
+    .search .mic{
+        margin-left: 10px;
+    }
+
     .search input{
         height: 39px;
         width: 540px;
@@ -52,6 +61,11 @@ html{
     }
 
 /* info css */
+
+    .info{
+        display: flex;
+        justify-content: center;
+    }
 
     .info #infoviedo{
         padding: 6px;
@@ -99,7 +113,9 @@ html{
     }
 
     .more_info button{
+        display: inline;
         border: none;
+        width: 500px;
         background-color: rgb(227, 227, 227);
     }
 
@@ -149,4 +165,8 @@ html{
         height: 94px;
         width: 168px;
         border-radius: 15px;
+    }
+
+    section, .player{
+        display: flex;
     }

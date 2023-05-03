@@ -87,6 +87,18 @@ main{
     margin-top: 5px;
 }
 
+.pwd h1{
+    width: 25px;
+    height: 25px;
+    background-position: 0 0;
+    background-image: url("https://static.nid.naver.com/images/ui/join/m_icon_pw_step.png");
+    background-size: 145px 85px;
+    position: relative;
+    bottom: 40px;
+    left: 430px;
+    margin: 0;
+}
+
 /* 비밀번호 재확인 */
 
 .repwd{
@@ -103,6 +115,19 @@ main{
     width: 98%;
     height: 50px;
     margin-top: 5px;
+}
+
+.repwd h1{
+    width: 25px;
+    height: 25px;
+    background-position: -32px 0;
+    background-image: url("https://static.nid.naver.com/images/ui/join/m_icon_pw_step.png");
+    background-size: 145px 85px;
+    position: relative;
+    bottom: 40px;
+    left: 430px;
+    margin: 0;
+
 }
 
 /* 이름 */
@@ -288,4 +313,8 @@ footer #right{
 }
 footer #corp{
     font-weight: bold;
+}
+
+footer ul li, footer .copy{
+    
 }
