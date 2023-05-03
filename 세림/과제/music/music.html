@@ -10,61 +10,72 @@
 </head>
 <body>
     <div class="left">
-        <div class="up">
-            <i class="fa-solid fa-arrow-left"></i>
-            <i class="fa-solid fa-magnifying-glass"></i>
+        <div class="padding">
+            <div class="up">
+                <i class="fa-solid fa-arrow-left"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="profile">
+                <img src="panic.jpg" alt="panic" id="l_panic">
+                <div class="name">
+                    <span id="name">Panic! At The Disco</span>
+                    <span id="genre">Pop Rock, Pop Funk, EMO Rock</span>
+                </div>
+                <div class="heart">
+                    <button id="shuffle">Shuffle</button>
+                    <button id="like">
+                        <i class="fa-solid fa-heart"></i>
+                        <span>212,971</span>
+                    </button>
+                </div>
+            </div>
+            <div class="playlist">
+                <div id="gospel">
+                    <img src="thisis.jpg" alt="thisis" id="thisis">
+                    <div class="list">
+                        <span class="singer">Panic! At The Disco</span>
+                        <span class="songname">This Is Gospel</span>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical dot"></i>
+                </div>
+                <div id="high">
+                    <img src="highhopes.jpg" alt="highopes" id="highhopes">
+                    <div class="list">
+                        <span class="singer">Panic! At The Disco</span>
+                        <span class="songname">High Hopes</span>
+                    </div>
+                    <i class="fa-solid fa-chart-simple fa-lg" id="chart"></i>
+                    <i class="fa-solid fa-ellipsis-vertical dot"></i>
+                </div>
+                <div id="bachelor">
+                    <img src="death.jpg" alt="death" id="death">
+                    <div class="list">
+                        <span class="singer">Panic! At The Disco</span>
+                        <span class="songname">Death of a Bachelor</span>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical dot"></i>
+                </div>
+                <div id="smiles">
+                    <img src="sarah.jpg" alt="sarah" id="sarah">
+                    <div class="list">
+                        <span class="singer">Panic! At The Disco</span>
+                        <span class="songname">Sarah Smiles</span>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical dot"></i>
+                </div>
+            </div>
         </div>
-        <div class="profile">
-            <img src="panic.jpg" alt="panic">
-            <div class="name">
-                <span>Panic! At The Disco</span>
-                <span>Pop Rock, Pop Funk, EMO Rock</span>
-            </div>
-            <div class="heart">
-                <button>Shuffle</button>
-                <button>
-                    <i class="fa-solid fa-heart"></i>
-                    <span>212,971</span>
-                </button>
-            </div>
-        </div>
-        <div class="playlist">
-            <div id="gospel">
-                <img src="thisis.jpg" alt="thisis">
-                <span>Panic! At The Disco</span>
-                <span>This Is Gospel</span>
-                <i class="fa-solid fa-ellipsis-vertical"></i>
-            </div>
-            <div id="high">
-                <img src="highhopes.jpg" alt="highopes">
-                <span>Panic! At The Disco</span>
-                <span>High Hopes</span>
-                <i class="fa-solid fa-ellipsis-vertical"></i>
-            </div>
-            <div id="bachelor">
-                <img src="death.jpg" alt="death">
-                <span>Panic! At The Disco</span>
-                <span>Death of a Bachelor</span>
-                <i class="fa-solid fa-ellipsis-vertical"></i>
-            </div>
-            <div id="smailes">
-                <img src="sarah.jpg" alt="sarah">
-                <span>Panic! At The Disco</span>
-                <span>Sarah Smiles</span>
-                <i class="fa-solid fa-ellipsis-vertical"></i>
-            </div>
-        </div>
-        <div class="play">
+        <button class="play">
             <div class="play_text">
-                <span>Panic! At The Disco</span>
-                <span>High Hopes</span>
+                <span id="singing">Panic! At The Disco</span>
+                <span id="playing">High Hopes</span>
             </div>
             <div class="play_icon">
-                <i class="fa-solid fa-backward-step"></i>
-                <i class="fa-solid fa-pause"></i>
-                <i class="fa-solid fa-forward-step"></i>
+                <i class="fa-solid fa-backward-step" id="back"></i>
+                <i class="fa-solid fa-pause fa-2x" id="pause"></i>
+                <i class="fa-solid fa-forward-step" id="next"></i>
             </div>
-        </div>
+        </button>
     </div>
     
     <div class="right">
@@ -73,24 +84,26 @@
             <i class="fa-solid fa-ellipsis-vertical"></i>
         </div>
         <div class="middle">
-            <img src="panic.jpg" alt="panic">
-            <span>High Hopes</span>
-            <span>Panic! At The Disco</span>
+            <img src="highhopes.jpg" alt="highhopes" id="r_highhopes">
+            <span class="r_name">High Hopes</span>
+            <span class="r_singer">Panic! At The Disco</span>
         </div>
         <div class="bottom">
             <div class="play_time">
-                <span>1:56</span>
-                <span>3:11</span>
-                <input type="range" id="playing" name="playing" min="0" max="191" required>
+                <div class="time">
+                    <span class="start">1:56</span>
+                    <span class="end">3:11</span>
+                </div>
+                <input type="range" id="playing" name="playing" min="0" max="191">
             </div>
             <div class="media">
-                <i class="fa-solid fa-repeat"></i>
-                <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-solid fa-repeat" id="repeat"></i>
+                <i class="fa-solid fa-backward-step fa-lg" id="backward"></i>
                 <button>
-                    <i class="fa-solid fa-play"></i>
+                    <i class="fa-solid fa-play fa-lg"></i>
                 </button>
-                <i class="fa-solid fa-forward-step"></i>
-                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-solid fa-forward-step fa-lg" id="forward"></i>
+                <i class="fa-solid fa-shuffle shuffle"></i>
             </div>
         </div> 
     </div>

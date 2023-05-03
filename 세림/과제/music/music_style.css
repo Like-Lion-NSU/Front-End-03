@@ -1,0 +1,296 @@
+/* 바디 */
+
+body{
+    background-color: white;
+    display: flex;
+}
+
+/* 왼쪽 디스플레이 */
+
+.left{
+    width: 300px;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 150px;
+    margin-left: 85px;
+    border-radius: 25px;
+    box-shadow: 0 0 50px  lightgray;
+}
+
+/* 패딩값만 */
+
+.padding{
+    padding: 30px 30px 0 30px;
+}
+
+/* 상단바 */
+
+.up{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 프로필 */
+
+.profile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.profile #l_panic{
+    width: 70px;
+    height: auto;
+    border-radius: 50px;
+    display: flex;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 20px gray;
+}
+
+.profile #name{
+    display: block;
+    margin-left: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.profile #genre{
+    display: block;
+    font-size: smaller;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.profile #shuffle{
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+    margin-right: 10px;
+}
+
+.profile #like{
+    border: 1px solid lightgray;
+    border-radius: 18px;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.profile .heart{
+    margin-bottom: 35px;
+}
+
+/* 플레이리스트 */
+
+.playlist{
+    position: relative;
+}
+
+.playlist img{
+    width: 35px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.playlist .singer{
+    font-size: small;
+    color: gray;
+}
+
+.playlist .songname{
+    font-weight: bold;
+}
+
+.playlist .dot{
+    position: absolute;
+    left: 95%;
+    color: gray;
+}
+
+.playlist .list{
+    display: flex;
+    flex-direction: column;
+}
+
+.playlist #gospel, #high, #bachelor, #smiles{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.playlist #high{
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgb(228, 228, 228);
+    position: relative;
+}
+
+.playlist #highhopes{
+    filter: brightness(70%);
+}
+
+.playlist #chart{
+    position: absolute;
+    color: white;
+    left: 10px;
+}
+
+/* 현재 플레이 중인 노래 */
+
+.play{
+    border-radius: 25px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    padding: 10px 0;
+    box-shadow: 0 5px 3px rgb(203, 202, 202);
+}
+
+.play .play_text, .play_icon{
+    color: white;
+}
+
+/* 현.플.노 글자 */
+
+.play_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.play_text #singing{
+    font-size: smaller;
+    color: gray;
+    padding-left: 25px;
+    margin-bottom: 5px;
+}
+
+.play_text #playing{
+    font-weight: bold;
+}
+
+/* 현.플.노 아이콘 */
+
+.play .play_icon{
+    margin-left: 55px;
+    display: flex;
+    align-items: center;
+}
+
+.play #pause{
+    margin: 0 25px;
+}
+
+/* 오른쪽 */
+
+.right{
+    width: 300px;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 150px;
+    margin-left: 85px;
+    border-radius: 25px;
+    box-shadow: 0 0 50px  lightgray;
+}
+
+/* 오른쪽 상단바 */
+
+.right .up{
+    padding: 30px 30px 0 30px;
+}
+
+/* 이미지 */
+
+.middle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.middle #r_highhopes{
+    width: 230px;
+    height: auto;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    box-shadow: 0 10px 20px #033f3f;
+}
+
+/* 제목 가수 */
+
+.middle .r_name{
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.middle .r_singer{
+    font-size: small;
+    font-weight: bold;
+    color: rgb(179, 179, 179);
+    margin-bottom: 30px;
+}
+
+/* 플탐 */
+
+.bottom{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottom .time{
+    display: flex;
+    font-size: xx-small;
+    font-weight: bold;
+    color: rgb(179, 179, 179);
+}
+
+.time .start{
+    margin-right: 205px;
+    margin-left: 5px;
+}
+
+.bottom #playing{
+    width: 250px;
+    accent-color: black;
+    margin-bottom: 40px;
+}
+
+/* 마 지 막 이 다 ! ! */
+
+.media{
+    display: flex;
+    align-items: center;
+}
+
+.media button{
+    background-color: black;
+    color: white;
+    padding: 20px 23px;
+    border: none;
+    border-radius: 1000px;
+    box-shadow:  0 0 10px gray;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.media #backward{
+    margin-left: 30px;
+}
+
+.media #forward{
+    margin-right: 30px;
+}
+
+.media .shuffle, #repeat{
+    color: rgb(179, 179, 179);
+}
