@@ -1,0 +1,303 @@
+html{
+    background-color: rgb(189, 189, 189);
+}
+
+body{
+    display: flex;
+    justify-content: space-between;
+
+}
+.object1{
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    padding-top: 10px;
+    width: 350px;
+    height: 680px;
+    border-radius: 30px;
+    margin-left: 400px;
+}
+
+.top_meun{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.profile img{
+    margin-top: 20px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.art_name{
+    font-weight: bolder;
+    font-size: larger;
+    padding-bottom: 10px;
+}
+
+.genre{
+    color: gray;
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+.btn{
+    margin-top: 20px;
+}
+
+.first_btn{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    font-size: medium;
+}
+
+.second_btn{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 45px;
+    border-radius: 30px;
+    border-color: lightgray;
+    font-size: medium;
+}
+
+.next_album{
+    margin-top: 35px;
+    margin-bottom: 55px;
+    margin-left: 50px;
+    list-style: none;
+}
+
+.next_album span{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.next_album i{
+    padding-bottom: 60px;
+}
+
+.first_album{
+    width: 300px;
+    height: 20px;
+    margin-bottom: 45px;
+    display: flex;
+}
+
+.second_album{
+    width: 300px;
+    height: 20px;
+    margin-bottom: 45px;
+    padding-top: 5px;
+    display: flex;
+}
+
+.third_album{
+    width: 300px;
+    height: 20px;
+    margin-bottom: 45px;
+    display: flex;
+}
+
+.fourth_album{
+    width: 300px;
+    height: 20px;
+    margin-bottom: 45px;
+    display: flex;
+}
+
+.first_album img{
+    width: 50px;
+    height: 50px;
+    padding-right: 5px;
+}
+
+.second_album img{
+    width: 50px;
+    height: 50px;
+    padding-right: 5px;
+}
+
+.third_album img{
+    width: 50px;
+    height: 50px;
+    padding-right: 5px;
+}
+
+.fourth_album img{
+    width: 50px;
+    height: 50px;
+    padding-right: 5px;
+}
+
+.playing_music{
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    width: 330px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.play_title{
+    display: flex;
+    flex-direction: column;
+}
+
+.play_icon{
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+.playing{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-right: 100px;
+}
+
+#artist{
+    color: gray;
+    font-size: small;
+    font-weight: bold;
+}
+
+#song{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.object2{
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    padding-top: 10px;
+    width: 350px;
+    height: 680px;
+    border-radius: 30px;
+    margin-right: 400px;
+}
+
+.top_meun2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.music_img{
+    width: 350px;
+    height: 200px;
+    margin-top: 120px;
+}
+
+.object2 img{
+    border-radius: 20px;
+}
+
+.playing_name{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.big_title{
+    font-size: x-large;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+
+.artist_name{
+    color: gray;
+}
+
+.player_time{
+    margin-top: 20px;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: small;
+}
+
+#player{
+    width: 250px;
+    accent-color: black;
+}
+
+.front_back{
+    margin-top: 30px;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.start{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+#repeat{
+    margin-top: 15px;
+}
+
+#backward_step{
+    margin-top: 15px;
+}
+
+#forward_step{
+    margin-top: 15px;
+}
+
+#play_shuffle{
+    margin-top: 15px;
+}
+
+#vertical1{
+    margin-top: 15px;
+    margin-left: 130px;
+}
+
+#vertical2{
+    margin-top: 15px;
+    margin-left: 130px;
+}
+
+#vertical3{
+    margin-top: 15px;
+    margin-left: 125px;
+}
+
+#vertical4{
+    margin-top: 15px;
+    margin-left: 130px;
+}

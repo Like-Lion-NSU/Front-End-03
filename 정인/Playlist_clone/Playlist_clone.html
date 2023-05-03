@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/60a5c5910e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="object1">
+        <header class="top_meun">
+            <i class="fa-solid fa-arrow-left"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </header>
+
+        <main class="object1_main">
+            <div class="user_info">
+                <div class="profile">
+                    <img src="I-DLE.jpg">
+                </div>
+                <div class="name">
+                    <span class="art_name">(G)I-DLE</span>
+                    <span class="genre">Punk Rock, Pop Punk</span>
+                </div>
+            </div>
+            
+            <div class="btn">
+                <button class="first_btn">Shuffle</button>
+                <button class="second_btn">
+                    <i class="fa-solid fa-heart">212,971</i>
+                </button>
+            </div>
+
+            <div class="next_album">
+                <div class="first_album">
+                    <img src="I AM.jpg">
+                        <div class="first_album_title">
+                            <span id="artist">(G)I-DLE</span>
+                            <spna>LATATA</spna>
+                        </div>
+                    <i class="fa-solid fa-ellipsis-vertical" id="vertical1"></i>
+                </div>
+
+                <div class="second_album">
+                    <img src="I LOVE.jpg">
+                        <div class="second_album_title">
+                            <span id="artist">(G)I-DLE</span>
+                            <span>Nxde</span>
+                         </div>
+                     <i class="fa-solid fa-ellipsis-vertical" id="vertical2"></i>
+                </div>
+                
+                <div class="third_album">
+                    <img src="I NEVER DIE.jpg">
+                        <div class="third_album_title">
+                            <span id="artist">(G)I-DLE</span>
+                            <span>Tomboy</span>
+                        </div>
+                    <i class="fa-solid fa-ellipsis-vertical" id="vertical3"></i>
+                </div>
+
+                <div class="fourth_album">
+                    <img src="I LOVE.jpg">
+                        <div class="fourth_album_title">
+                            <span id="artist">(G)I-DLE</span>
+                            <span>change</span>
+                        </div>
+                    <i class="fa-solid fa-ellipsis-vertical" id="vertical4"></i>
+                </div>
+            </div>
+            <div class="playing_music">
+                <div class="playing">
+                    <span id="artist">(G)I-DLE</span>
+                    <span id="song">Nxde</span>
+                </div>
+                
+                <div class="play_icon">
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-solid fa-pause"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="object2">
+        <header class="top_meun2">
+            <i class="fa-solid fa-arrow-left"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </header>
+
+        <main class="oject2_main">
+            <div class="music_img">
+                <img src="I LOVE.jpg">
+            </div>
+        
+            <div class="playing_name">
+                <span class="big_title">Nxde</span>
+                <span class="artist_name">(G)I-DLE</span>
+            </div>
+
+            <div class="player_btn">
+                <div class="player_time">
+                    <div class="time">
+                        <span>1:56</span>
+                        <span>3:11</span>
+                    </div>
+                    <input type="range" id="player" name="player" min="0" max="191" required>
+                </div>
+                <div class="front_back">
+                    <i class="fa-solid fa-repeat" id="repeat"></i>
+                    <i class="fa-solid fa-backward-step" id="backward_step"></i>
+                        <button class="start">
+                            <i class="fa-solid fa-play" id="start"></i>
+                        </button>
+                    <i class="fa-solid fa-forward-step" id="forward_step"></i>
+                    <i class="fa-solid fa-shuffle" id="play_shuffle"></i>
+                </div>
+            </div> 
+        </main>
+    </div>
+</body>
+</html>
