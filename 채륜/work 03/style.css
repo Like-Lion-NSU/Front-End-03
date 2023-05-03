@@ -1,0 +1,201 @@
+html{
+    background-color: #cccfd05f;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.front, .back{
+    height: 800px;
+    width: 400px;
+    margin: 20px 0 20px;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.front header, .back header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.front button, .back button{
+    border: none;
+    background-color: white;
+    margin: 30px 30px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+.info .title{
+    font-size: 18px;
+    margin: 25px 0 10px;
+}
+
+.info .gen{
+    font-size: 14px;
+    font-weight: 400;
+    color: #8e8e8e;
+}
+
+.btn{
+    margin: 10px 0;
+}
+.btn .shuffle{
+    background-color: black;
+    color: white;
+    border-radius: 2em;
+    padding: 8px 25px;
+    font-size: 14px;
+}
+
+.btn .like{
+    color: #8e8e8e;
+    border-radius: 2em;
+    padding: 8px 25px;
+    font-size: 14px;
+    box-shadow: 2px 2px 2px 2px gainsboro;
+}
+
+.btn i{
+    color: black;
+}
+
+.upmusic{
+    display: flex;
+    flex-direction: column;
+}
+
+.upnext{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 7px;
+}
+
+.now{
+    box-shadow: 5px 5px 5px 5px gainsboro;
+}
+.upnext img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 25px ;
+    
+}
+
+.upnext .title{
+    font-size: 14px;
+    font-weight: 400;
+    color: #8e8e8e;
+    padding-top: 7px;
+}
+
+.upnext .song{
+    font-size: 16px;
+    margin-left: 23.8px;
+}
+
+.upnext .bar{
+    padding-top: 13px;
+    margin-left: 170px;
+}
+.min_player{
+    display: flex;
+    background-color: black;
+    border-radius: 2em;
+    justify-content: space-between;
+    margin: 5px 10px;
+}
+
+.min_player .name{
+    margin: 7px 20px;
+}
+
+.min_player .title {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8e8e8e;
+    padding-top: 7px;
+    margin-right: 23px;
+}
+
+.min_player .sing{
+    color: white;
+}
+
+.min_player .player{
+    display: flex;
+    padding: 10px;
+    margin: 7px 20px;
+}
+
+.min_player .player .stop{
+    margin-top: 6px;
+}
+.min_player .player i{
+    margin: 10px;
+}
+
+/* back 부분 */
+
+.back .img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 25px 0;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+.now_title{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.music_bar{
+    margin: 35px;
+}
+
+.music_bar .text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.music_bar input{
+    accent-color: black;
+    width: 320px;
+}
+
+.back .player{
+    display: flex;
+    margin: 80px 30px;
+    justify-content: space-around;
+}
+
+.back .player{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.back .player .rep{
+    color: #8e8e8e;
+    margin-top: 20px;
+}
+
+.back .player .pre{
+    margin-top: 15px;
+}
