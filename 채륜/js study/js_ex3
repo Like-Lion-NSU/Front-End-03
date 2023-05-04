@@ -1,0 +1,106 @@
+// 5장 ----------------------------
+
+1.
+    function multiplyAll(A, B) {
+        let mul = 1
+
+        for(let i = A; i <= B; i++){
+            mul *= i
+        }
+
+        return mul;
+    }
+
+2.
+    const max = function(array) {
+        let output = array[0]
+
+        for(let i = 1; i < array.length; i++) {
+            if(array[i] > output){
+                output = array[i]
+            }
+        }
+
+        return output
+    }
+
+    console.log(max([1, 2, 3, 4]))
+
+3. 
+    const max = function(...items) {
+        let output
+        let items
+
+        for(let i = 0; i < items.length; i++){
+            if(items[i] > output){
+                output = items[i]
+            }
+        }
+
+        return output
+    }
+
+4. 
+    let numbers = [273, 25, 75, 52, 103, 32, 57, 24, 76]
+
+    console.log('홀수만 추출')
+    
+
+5.
+    const array = ['사과', '배', '귤', '바나나']
+
+    console.log('# for in 반복문')
+    array.forEach(function(array, index) {
+        console.log(index)
+    })
+
+    console.log('# for of 반복문')
+    array.forEach(function(array){
+        console.log(array)
+    })
+
+//   6장 ----------------------------------------------
+1.
+    const text = {
+        name: '혼자 공부하는 파이썬',
+        price: 18000,
+        publisher: '한빛미디어'
+    }
+
+2. 
+    3번
+
+3.
+    1번
+
+4.
+    print: function(lang) 
+    
+5.
+    52000원
+
+6.  
+    printLang("ko"): 한국어
+    printLang("en"): 영어
+
+7.
+
+8.
+    prototype
+
+9.
+
+10.
+    2번
+
+11.
+    1. Carousel(슬라이드되는 이미지)
+    2. HTML CharacterData(차트를 만듦)
+    3. Navbar 메뉴 (Navbar 디자인)
+    4. Scroll Reveal(스크롤바 사용시 애니메이션 적용)
+    5. FullPage(자유로운 스크롤을 막고 ppt처럼 한장씩 보여줌)
+    6. D3.js (데이터 시각화)
+    7. Processing.js(java애플릿이나 flash 플러그인을 사용하지 않고도 표현가능)
+    
+
+
