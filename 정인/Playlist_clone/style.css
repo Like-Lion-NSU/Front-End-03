@@ -15,6 +15,7 @@ body{
     height: 680px;
     border-radius: 30px;
     margin-left: 400px;
+    box-shadow: 5px 5px 15px rgb(53, 50, 50);
 }
 
 .top_meun{
@@ -30,6 +31,7 @@ body{
     width: 90px;
     height: 90px;
     border-radius: 50px;
+    box-shadow: 1px 2px 10px rgb(130, 55, 149);
 }
 
 .name{
@@ -72,12 +74,13 @@ body{
     border-radius: 30px;
     border-color: lightgray;
     font-size: medium;
+    border: none;
+    box-shadow: 2px 2px 15px rgb(168, 168, 168);
 }
 
 .next_album{
     margin-top: 35px;
-    margin-bottom: 55px;
-    margin-left: 50px;
+    margin-bottom: 40px;
     list-style: none;
 }
 
@@ -94,16 +97,25 @@ body{
 .first_album{
     width: 300px;
     height: 20px;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
     display: flex;
+    margin-left: 50px;
+    margin-right: 20px;
 }
 
 .second_album{
     width: 300px;
-    height: 20px;
-    margin-bottom: 45px;
-    padding-top: 5px;
+    height: 60px;
+    margin-bottom: 10px;
+    padding-top: 10px;
     display: flex;
+    background-color: white;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-right: 20px;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px 15px rgb(168, 168, 168);
 }
 
 .third_album{
@@ -111,6 +123,8 @@ body{
     height: 20px;
     margin-bottom: 45px;
     display: flex;
+    margin-left: 50px;
+    margin-right: 20px;
 }
 
 .fourth_album{
@@ -118,30 +132,37 @@ body{
     height: 20px;
     margin-bottom: 45px;
     display: flex;
+    margin-left: 50px;
+    margin-right: 20px;
 }
 
 .first_album img{
     width: 50px;
     height: 50px;
     padding-right: 5px;
+    border-radius: 10px;
 }
 
 .second_album img{
     width: 50px;
     height: 50px;
     padding-right: 5px;
+    border-radius: 10px;
+    filter: brightness(70%);
 }
 
 .third_album img{
     width: 50px;
     height: 50px;
     padding-right: 5px;
+    border-radius: 10px;
 }
 
 .fourth_album img{
     width: 50px;
     height: 50px;
     padding-right: 5px;
+    border-radius: 10px;
 }
 
 .playing_music{
@@ -163,15 +184,31 @@ body{
 
 .play_icon{
     margin-left: 30px;
-    margin-top: 25px;
     margin-right: 50px;
+    display: flex;
+}
+
+.pausebtn i{
+    font-size: x-large;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 22px;
+}
+
+#bs{
+    margin-top: 26px;
+}
+
+#fs{
+    margin-top: 26px;
 }
 
 .playing{
     display: flex;
     flex-direction: column;
     margin-top: 15px;
-    margin-right: 100px;
+    margin-right: 80px;
+    margin-left: 30px;
 }
 
 #artist{
@@ -194,6 +231,7 @@ body{
     height: 680px;
     border-radius: 30px;
     margin-right: 400px;
+    box-shadow: 5px 5px 15px rgb(53, 50, 50);
 }
 
 .top_meun2{
@@ -212,6 +250,7 @@ body{
 
 .object2 img{
     border-radius: 20px;
+    box-shadow: 2px 4px 10px rgb(221, 43, 43);
 }
 
 .playing_name{
@@ -258,28 +297,29 @@ body{
 }
 
 .start{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 30px;
     color: white;
     background-color: black;
     border: none;
+    box-shadow: 2px 3px 15px rgb(53, 50, 50);
 }
 
 #repeat{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 #backward_step{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 #forward_step{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 #play_shuffle{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 #vertical1{
@@ -300,4 +340,17 @@ body{
 #vertical4{
     margin-top: 15px;
     margin-left: 130px;
+}
+
+#cs{
+    position: relative;
+    transform: translateX(32px) translateY(16px);
+    z-index: 1;
+    color: white;
+    display: flex;
+}
+
+.final{
+    display: flex;
+    margin-right: 20px;
 }

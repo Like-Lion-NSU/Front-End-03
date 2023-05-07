@@ -14,10 +14,14 @@ header img{
     height: 45px;
 }
 
+input{
+    border: 1px solid gray;
+}
 .privacy{
     margin-top: 40px;
     display: flex;
     flex-direction: column;
+    font-family: Dotum, '돋움';
 }
 
 .아이디{
@@ -27,6 +31,10 @@ header img{
     padding-right: 8px;
     height: 50px;
     width: 460px;
+}
+
+.privacy span{
+    font-weight: bold;
 }
 
 .비밀번호{
