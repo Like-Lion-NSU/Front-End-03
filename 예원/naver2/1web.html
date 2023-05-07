@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <title>네이버 - 회원가입</title>
+
+    </head>
+    <body>
+        
+        <div id="header">
+         <!---웹페이지 상단-->
+            <header>
+                <!---네이버 로고-->
+                <div>
+                    <h1 >
+                        <a href="https://naver.com/" tager="_blank"  class="h_logo"> 
+                            <span class="blind">NAVER</span>
+                        </a>
+                    </h1>
+                </div>
+            </header>
+            <div id="wrp">
+                <div id="content">
+                <!----아이디--->
+                    <div>
+                        <h3 class="label_title">
+                            <label for="id">아이디</label>
+                        </h3>
+                        <span class="box int_id">
+                            <input type="text"  maxlength="25" class="int">
+                            <span class="back_url">@naver.com</span>
+                        </span>
+                    </div>
+                    <!---비밀번호-->
+                    <div>
+                        <h3 class="label_title">
+                            <label for="pwd1">비밀번호</label>
+                        </h3>
+                        <span class="box int_pwd">
+                        <input type="password" maxlength="20" class="int" id="pwd1">
+                        <span class="back_rock1"><img src="pwd1.png"></span>
+                        </span>
+                    </div>
+                    <!----비밀번호 확인-->
+                    <div>
+                        <h3 class="label_title">
+                            <label for="pwd2">비밀번호 재확인</label>
+                        </h3>
+                        <span class="box int_pwd2">
+                        <input type="password" maxlength="20" class="int" id="pwd2">
+                        <span class="back_rock2"><img src="pwd2.png"></span>
+                        </span>
+                    </div>
+                    <!---이름-->
+                    <div>
+                        <h3 class="label_title">
+                            <label for="name">이름</label>
+                        </h3>
+                        <span class="box int_name">
+                        <input type="text" maxlength="5" class="int">
+                        </span>
+                    </div>
+                    <!---생년월일--->
+                    <div>
+                        <h3 class="label_title">
+                            <label for="yy">생년월일</label>
+                        </h3>
+                            <div id="brd">
+                                <div id="brd_yy">
+                                    <span class="box">
+                                        <input type="text" id="yy" class="int" maxlength="4" placeholder="년(4자)">
+                                    </span>
+
+                                </div>
+                                <div id="brd_mm">
+                                    <span class="box" >
+                                        <select class="mm" id="sel1">
+                                            <option>월</option>
+                                            <option value="01">1</option> 
+                                            <option value="02">2</option>                        
+                                            <option value="03">3</option>                        
+                                            <option value="04">4</option>                        
+                                            <option value="05">5</option>                        
+                                            <option value="06">6</option>                        
+                                            <option value="07">7</option>                        
+                                            <option value="08">8</option>                        
+                                            <option value="09">9</option>                        
+                                            <option value="10">10</option>                        
+                                            <option value="11">11</option>                        
+                                            <option value="12">12</option>         
+                                        </select>
+                                    </span>
+                                </div>
+                                <div id="brd_dd">
+                                    <span class="box">
+                                        <input type="text" maxlength="2" placeholder="일" class="dd">
+                                    </span>
+                                </div>
+                            </div>
+                    </div>
+                    <!---성별----->
+                    <div>
+                        <h3 class="label_title">
+                            <label for="gender">성별</label>
+                        </h3>
+                        <div class="box _gender">
+                            <select id="gender" class="sel2">
+                                <option>성별</option>
+                                <option value="M">남성</option>
+                                <option value="F">여성</option>
+                                <option value="U">선택안함</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!----메일---->
+                    <div>
+                        <h3 class="label_title">
+                            <label for="mail">본인 확인 이메일(선택)</label>
+                        </h3>
+                        <span class="box int_mail">
+                            <input type="text" name="메일" class="int" maxlength="30"
+                            placeholder="선택입력">
+                        </span>
+                    </div>
+                    <!--------휴대전화----->
+                    <div>
+                        <h3 class="label_title">
+                            <label for="phone">휴대전화</label>
+                        </h3>
+                        <span class="box int_phone">
+                            <select class="nationsel" id="phone">
+                                <option>대한민국 +82</option>
+                                    <option value="01">가나 +23</option>
+                                    <option value="02">나이지리아 +23</option>
+                                    <option value="03">대한민국 + 82</option>
+                                    <option value="04">루마니아 + 40</option>
+                                    <option value="05">마카오 +853</option>
+                                    <option value="06">방글라시데 +880</option>
+                                    <option value="07">홍콩 +852</option>
+                            </select>
+                            
+                        </span>
+                        
+                        <div class="area" style="display: flex;">
+                            <span class="box int_ph2" style="width: 100%; margin: 10px 0px 0px 0px;" >
+                                <input type="text" id="ph3" class="sel" maxlength="6" placeholder="전화번호 입력"></input>
+                            </span >
+                               
+                            <span class= "bt2">
+                                <button id="in_bt2">인증번호 받기</button>
+                            </span>
+                            
+                        </div>
+                        <div>
+                            <span class="box int_ph5">
+                                <input type=" clastext"class="sel" id="ph5" placeholder="인증번호를 입력하세요">
+                            </span>
+                        </div>
+                    </div>
+                    <!-----가입하기 버튼----->
+                            <button type="button"  id="bt"> 
+                            
+                                    가입하기
+                                
+                            </button>
+
+                        
+                    <div id="footer">
+                        <span>
+                            <a href="http://policy.naver.com/rules/service.html">이용약관</a>
+                            <a href="http://policy.naver.com/policy/privacy.html">개인정보처리방침</a>
+                            <a href="http://policy.naver.com/rules/disclaimer.html">책임의 한계와 법적고지</a>
+                            <a href="https://help.naver.com/support/alias/membership/p.membership/p.membership_26.naver">회원정보 고객센터</a>
+                    
+                        </span>
+                        <div>
+                            <a href="https://www.navercorp.com/">&copy;NAVER Crop</a> 
+                        </div>
+                    </div>
+
+                </div>
+                    
+            </div>
+        </div>
+    </body>
+</html>
