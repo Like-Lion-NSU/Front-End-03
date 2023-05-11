@@ -1,172 +1,281 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
-
-html{
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
 /* 헤더 */
 
-    header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 30px;
-        padding: 0 16px;
-    
-    }
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
 
-/* logo css */
+/* 로고 */
 
-    .logo span{
-        font-size: x-large;
-    }
+.logo .fa-bars{
+    margin-left: 20px;
+    margin-right: 20px;
 
-    .logo sup{
-        font-size: x-small;
-        color: gray;
-    }
+}
 
-    .logo #red{
-        color: red;
-        padding: 18px 0 10px 16px;
-    }
+.logo .fa-brands{
+    color: red;
+}
 
-    .bold, #tv{
-        font-weight: bold;
-    }
+.logo #logoName{
+    font-size: xx-large;
+    font-weight: bold;
+    position: relative;
+}
 
-/* search css */
+.logo #kr{
+    font-size: xx-small;
+    color: gray;
+    position: absolute;
+}
 
-    .search{
-        display: flex;
-        justify-content: center;
-    }
+/* 서치 */
 
-    .search .mic{
-        margin-left: 10px;
-    }
+.search{
+    display: flex;
+    justify-content: center;
+}
 
-    .search input{
-        height: 39px;
-        width: 540px;
-        border-radius: 20px;
-    }
+.search #find{
+    padding: 10px 160px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 1px solid lightgray;
+}
 
-    .search button{
-        padding: 10px 20px;
-        border-radius: 20px;
-    }
+.search button{
+    padding: 5px 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid lightgray;
+    background-color: rgb(248, 248, 248);
+}
 
-/* info css */
+.search #findLogo{
+    color: gray;
+}
 
-    .info{
-        display: flex;
-        justify-content: center;
-    }
+.search .fa-microphone{
+    margin-top: 20px;
+    margin-left: 20px;
+}
 
-    .info #infoviedo{
-        padding: 6px;
-    }
+/* 프로필 */
 
-    .info #infobell{
-        padding: 6px;
-    }
-
-    .info img{
-        height: 33px;
-        width: 33px;
-        padding: 6px;
-    }
-
+.profile img{
+    width: 25px;
+}
 
 /* 메인 */
 
-    .title{
-        font-size: x-large;
-    }
+main{
+    margin-left: 70px;
+    display: flex;
+}
 
-    .like button{
-        border: none;
-        background-color: rgb(227, 227, 227);
-        border-radius: 15px;
-        padding: 10px;
-        margin-bottom: 15px;
-    }
+/* 비디오 */
 
-    .more_info{
-        background-color: rgb(227, 227, 227);
-        padding-bottom: 20px;
-        border-radius: 20px;
-    }
+.video #videoLink{
+    margin-bottom: 10px;
+}
 
-    main .more_info span{
-        display: flex;
-        align-items: center;
-        padding-left: 10px;
-    }
+.videoInfo{
+    margin-right: 25px;
+}
 
-    main #hashtag{
-        padding-top: 10px;
-    }
+.videoInfo #videoName{
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
-    .more_info button{
-        display: inline;
-        border: none;
-        width: 500px;
-        background-color: rgb(227, 227, 227);
-    }
+.youtuber{
+    display: flex;
+    margin-bottom: 15px;
+}
 
-/* sub css */
+.youtuber img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
 
-    .sub{
-        display: flex;
-        margin: 10px;
-    }
+.wakta #waktaName{
+    margin-right: 30px;
+} 
 
-    .name span{
-        display: flex;
-        align-items: center;
-    }
+.wakta #waktaSub{
+    font-size: smaller;
+}
 
-    .name #onehund{
-        font-size: small;
-    }
+.youtuber #subscribe{
+    height: 35px;
+    padding: 0 16px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-right: 227px;
+}
 
-    .sub img{
-        height: 40px;
-        width: 40px;
-        border-radius: 30px;
-        margin-right: 15px;
-    }
+/* 비디오 버튼 */
 
-    .sub button{
-        padding: 4px 15px;
-        margin-left: 15px;
-        border-radius: 19px;
-        color: white;
-        background-color: black;
-    }
+.videoButton{
+    display: flex;
+    justify-content: center;
+    height: 35px;
+}
 
+.videoButton #thumbsUp{
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid lightgray;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding-left: 15px;
+}
 
+.videoButton #thumbsDown{
+    border: none;
+    padding: 0 15px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-right: 10px;
+}
+
+.videoButton #share{
+    border: none;
+    padding: 0 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.videoButton #download{
+    border: none;
+    padding: 0 15px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+
+.videoButton #more{
+    border: none;
+    padding: 0 10px;
+    border-radius: 50px;
+}
+
+/* 비디오 정보 */
+
+.waktaVideo{
+    background-color: rgb(240, 240, 240);
+    padding: 15px;
+    width: 910px;
+    border-radius: 20px;
+    display: flex;
+}
+.moreInfo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#theMore{
+    border: none;
+    margin-top: 45px;
+    position: absolute;
+    right: 1215px;
+}
 /* 섹션 */
 
-    section{
-        display: flex;
-    }
+section{
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
 
-    section .upnext{
-        display: flex;
-    }
+/* 잡다함 */
 
-    .image img{
-        height: 94px;
-        width: 168px;
-        border-radius: 15px;
-    }
+#moreChat{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
 
-    section, .player{
-        display: flex;
-    }
+.list{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.list #all{
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 7px 12px;
+    margin-right: 4px;
+}
+
+.list #forWakta{
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 7px 12px;
+    margin-right: 4px;
+}
+
+.list #contents{
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 7px 12px;
+}
+
+.list #arrow{
+    border: none;
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+    padding: 7px 12px;
+    position: absolute;
+    right: 20px;
+}
+
+#arrow:hover{
+    background-color: rgb(183, 183, 183);
+}
+
+/* 다음동영상 */
+
+section .moreVideo{
+    display: flex;
+    flex-direction: column;
+}
+
+.more1, .more2, .more3{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#moreName, #moreName2, #moreName3{
+    margin-bottom: 10px;
+}
+
+#moreYoutuber, #moreView, #moreYoutuber2, #moreView2, #moreYoutuber3, #moreView3{
+    font-size: small;
+    color: gray;
+}
+
+#happy, #happy2, #happy3{
+    width: 165px;
+    height: 90px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+

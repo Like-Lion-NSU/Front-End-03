@@ -1,93 +1,127 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Youtube</title>
+    <title>youtube</title>
 </head>
 <body>
     <header>
         <div class="logo">
-            <i class="fa-solid fa-bars fa-2x" id="bar"></i>
-            <i class="fa-brands fa-youtube fa-2x" id="red"></i>
-            <span class="bold">YouTube</span><sup>KR</sup>
+            <i class="fa-solid fa-bars fa-lg"></i>
+            <i class="fa-brands fa-youtube fa-2x"></i>
+            <span id="logoName">Youtube</span>
+            <span id="kr">KR</span>
         </div>
+
         <div class="search">
-            <input type="search">
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
-            <i class="fa-solid fa-microphone fa-2x mic"></i>
+            <input type="search" id="find">
+            <button id="finder">
+                <i class="fa-solid fa-magnifying-glass fa-lg" id="findLogo"></i>
+            </button>
+            <i class="fa-solid fa-microphone fa-lg"></i>
         </div>
-        <div class="info">
-            <i class="fa-solid fa-video fa-2x" id="infoviedo"></i>
-            <i class="fa-regular fa-bell fa-2x" id="infobell"></i>
-            <img src="slamdunk.png" alt="song">
+
+        <div class="profile">
+            <i class="fa-solid fa-video fa-lg"></i>
+            <i class="fa-regular fa-bell fa-lg"></i>
+            <img src="slamdunk.png" alt="slamdunk">
         </div>
     </header>
+
     <main>
-        <div class="player">
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/IuJPvdGtVjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        <div class="profile">
-            <div class="title"><span class="bold">이해하기 어려운 여자들의 세계</span></div>
-            <div class="btn">
-                <div class="sub">
-                    <img src="happy.jpg" alt="happy">
-                    <div class="name">
-                        <span id="tv">오킹TV ☑</span>
-                        <span id="onehund">구독자 195만명</span>
+        <div class="video">
+            <div id="videoLink">
+                <iframe width="942" height="528" src="https://www.youtube.com/embed/9soAWkBqXyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="videoInfo">
+
+                <div id="videoName"><span>짬통스 - BOY (King Gnu) COVER</span></div>
+                
+                <div class="youtuber">
+                    <img src="rei.jpg" alt="rei">
+
+                    <div class="wakta">
+                        <div id="waktaName"><span>왁타버스 WAKTAVERSE</span></div>
+                        <div id="waktaSub"><span>구독자 53.5만명</span></div>
                     </div>
-                    <button>구독</button>
+
+                    <button id="subscribe"><span>구독</span></button>
+
+                    <div class="videoButton">
+                            <button id="thumbsUp">
+                                <i class="fa-solid fa-thumbs-up fa-lg"></i>
+                                <span>1.4만</span>
+                            </button>
+                            <button id="thumbsDown">
+                                <i class="fa-solid fa-thumbs-down fa-lg"></i>
+                            </button>
+                        <button id="share">
+                            <i class="fa-solid fa-share fa-lg"></i>
+                            <span>공유</span>
+                        </button>
+                        <button id="download">
+                            <i class="fa-solid fa-arrow-down fa-lg"></i>
+                            <span>오프라인 저장</span>
+                        </button>
+                        <button id="more">
+                            <i class="fa-solid fa-ellipsis fa-lg"></i>
+                        </button>
+                    </div>
                 </div>
-                <div class="like">
-                    <button>
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        <span>1.9천</span>
-                    </button>
-                    <button>
-                        <i class="fa-solid fa-thumbs-down"></i>
-                    </button>
-                    <button>
-                        <i class="fa-solid fa-share"></i>
-                        <span>공유</span>
-                    </button>
-                    <button>
-                        <i class="fa-solid fa-arrow-down"></i>
-                        <span>오프라인 저장</span>
-                    </button>
-                    <button>
-                        <i class="fa-solid fa-ellipsis"></i>
-                    </button>
-                </div>
-            </div>
+                    <div class="waktaVideo">
+                        <div class="moreInfo">
+                            <span>조회수 60만회 1개월 전</span>
+                            <span>짬통스 - BOY (King Gnu) COVER</span>
+                            <span>원곡 : King Gnu - BOY</span>
+                        </div>
+                        <button id="theMore"><span>더보기</span></button>
+                    </div>
+
+                
+            </div>                  
         </div>
-        <div class="more_info">
-            <span id="hashtag">조회수 5.9만회 2시간 전 #오킹 #군대 #화장</span>
-            <span>◆오킹 팬카페! 네이버 카페</span>
-            <span>◆쏠란트 홈페이지 바로가기</span>
-            <span>◆오킹에게 후원하기</span>
-            <button>더보기</button>
-        </div>
-    </main>
+    
     <section>
-        <div class="upnext">
-            <div class="image">
-                <img src="rei.jpg" alt="rei">
+        <button id="moreChat">채팅 다시보기 표시</button>
+
+        <div class="list">
+            <button id="all">모두</button>
+            <button id="forWakta">왁타버스 WAKTAVERSE 제공</button>
+            <button id="contents">관련 콘텐츠</button>
+            <button id="arrow"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+
+        <div class="more1">
+            <img src="happy.jpg" alt="happy" id="happy">    
+            <div class="moreVideo">
+                <div id="moreName"><span> [playllist] 오타쿠라면 꼭 알아야하는 애니 OST</span></div>
+                <div id="moreYoutuber"><span>동</span></div>
+                <div id="moreView"><span>조회수 24만회 · 2개월 전 </span></div>
             </div>
-            <div class="text">
-                <div class="wpahr">
-                    <span>1000주 지급</span>
-                </div>
-                <div class="dlfma">
-                    오킹TV
-                </div>
-                <div class="whghltn">
-                    조회수 42만회 <span>· 2주전</span>
-                </div>
+        </div>
+
+        <div class="more2">
+        <img src="happy.jpg" alt="happy" id="happy2">    
+            <div class="moreVideo">
+                <div id="moreName2"><span>나의 청춘들에게 - 도파민 박사 (feat.곽춘식)</span></div>
+                <div id="moreYoutuber2"><span>왁타버스 WAKTAVERSE</span></div>
+                <div id="moreView2"><span>조회수 42만회 · 2주 전 </span></div>
+            </div>
+        </div>
+
+        <div class="more3">
+            <img src="happy.jpg" alt="happy" id="happy3">    
+            <div class="moreVideo">
+                <div id="moreName3"><span> [우왁굳 반응] 짬통스 - 망령혼합대무도회</span></div>
+                <div id="moreYoutuber3"><span>단답벌레</span></div>
+                <div id="moreView3"><span>조회수 21만회 · 7개월 전 </span></div>
             </div>
         </div>
     </section>
+    </main>
+    <script src="https://kit.fontawesome.com/60a5c5910e.js" crossorigin="anonymous"></script>
 </body>
-<script src="https://kit.fontawesome.com/60a5c5910e.js" crossorigin="anonymous"></script>
 </html>
