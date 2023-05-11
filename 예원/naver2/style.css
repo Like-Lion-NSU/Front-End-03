@@ -122,10 +122,28 @@ h3 {
 }
 .box.int_pwd{
     padding-right: 60px;
+    background-image: url(	https://static.nid.naver.com/images/ui/join/m_icon_pw_step.png);
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 150px 90px ;
+
+    
 }
 .box.int_pwd2{
     padding-right: 60px;
+    background-image: url(	https://static.nid.naver.com/images/ui/join/m_icon_pw_step.png);
+    background-repeat: no-repeat;
+    background-position: 380px 10px;
+    background-size: 170px auto;
+    
 }
+#pwd1 {
+    position: absolute ;
+    background-size: 150px 90px;
+    background-position: 0% 0% ;
+
+}
+
 .back_url{
     position: absolute;
     top: 15px;
@@ -133,7 +151,7 @@ h3 {
     font-size: 15px;
     color: #8e8e8e;
 }
-.back_rock1{
+ .back_rock1{
     width: 18px;
     height: 20px;
     display: inline-block;
@@ -151,7 +169,7 @@ h3 {
     top: 58%;
     right: 25px;
     margin-top: -18px;
-}
+} 
 
 #brd{
     display: table;
