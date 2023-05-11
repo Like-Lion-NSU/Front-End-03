@@ -10,10 +10,21 @@ body{
     font-family: Dotum, '돋움', Helvetica, sans-serif;
 }
 
+
 div{
     display: block;
 }
 
+input:focus-within{
+    outline-color: #03c75a;
+}
+input{
+    border: none;
+}
+input:focus{
+    outline: none;
+    
+}
 .h_logo{
    display: block;
     width: 240px;
@@ -65,6 +76,23 @@ h3{
     font-weight: 700;
     margin-block-start: 1em;
     margin-block-end: 1em;
+}
+
+.lock_1{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 13px;
+    width: 24px;
+    height: 24px;
+    margin-top: -12px;
+    background-image: url("https://static.nid.naver.com/images/ui/join/m_icon_pw_step.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 125px 75px;
+    cursor: pointer;
+    
 }
 
 .box, .box1{

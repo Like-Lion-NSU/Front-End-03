@@ -11,26 +11,34 @@
         return mul;
     }
 
-2.
+2. - 1
     const max = function(array) {
         let output = array[0]
 
-        for(let i = 1; i < array.length; i++) {
-            if(array[i] > output){
-                output = array[i]
-            }
-        }
+       for(const item of array){    // for of 명령문 반복가능한 객체에 대해서 반복함
+        if(output < item)
+        output = item
+       }
 
         return output
     }
 
     console.log(max([1, 2, 3, 4]))
 
-3. 
-    const max = function(...items) {
+2. - 2
+    const max = function(...array)
+
+    for(const item of array){
+        if(output < item){
+            output = item
+        }
+    }
+
+2. - 3
+    const max = function(fir, ...array) {
         let output
         let items
-
+        
         for(let i = 0; i < items.length; i++){
             if(items[i] > output){
                 output = items[i]
@@ -83,12 +91,13 @@
     printLang("ko"): 한국어
     printLang("en"): 영어
 
-7.
+7. 
 
-8.
-    prototype
+8. 2번
 
-9.
+9. const output = _.orderBy(books, (book) => book.name)
+console.log(JSON.stringify(output, null, 2))
+
 
 10.
     2번
