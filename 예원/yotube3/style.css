@@ -1,0 +1,23 @@
+html{
+    margin:  0 ;
+    padding: 0 ;
+}
+header{
+    position: fixed;
+    display: fixed;
+    padding: 12px;
+    color:  black;
+    margin-top: 12px;
+    justify-content: space-between;
+}
+img{
+    width: 32px;
+    height: 32px;
+    border-radius: 20px;
+}
+
+/* logo */
+.logo .hamberger{
+    margin: 12px;
+
+}
