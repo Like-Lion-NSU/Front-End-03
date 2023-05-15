@@ -78,7 +78,7 @@ h3{
     margin-block-end: 1em;
 }
 
-.lock_1{
+.lock_1, .lock_2{
     content: '';
     display: inline-block;
     position: absolute;
