@@ -198,6 +198,14 @@ h3{
     margin-right: 125px;
 }
 
+.box #in{
+    background-color: #f5f6f7;
+}
+.gray_box {
+    background-color: #f5f6f7;
+    
+}
+
 button{
     display: block;
     width: 100%;
