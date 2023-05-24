@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse; /* 선 겹쳐서 하나로 표현 */
+        }
+        td {
+            border: 1px solid black;
+            width: 60px;
+            height: 60px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        const $table = document.createElement('table');
+        const $result = document.createElement('dic'); 
+        let first = 'O';
+        const data = []; // 틱택토 넣을 3*3 격자 만들곳
+        for (let i = 0; i < 3; i++) {
+            data.push([]); // 배열로 넣음
+        } // 배열 안에 배열이 있음 = 이차원 배열
+        
+        for (let i = 0; i < 3; i++) { // tr 세 번 반복문
+            const $tr = document.createElement('tr'); // tr 변수 선언 및 table 안에 tr 태그 추가
+            for (let i = 0; i < 3; i++) { // td 세 번 반복문
+                const $td = document.createElement('td'); // td 변수 선언 및 tr 안에 td 태그 추가
+                $td.addEventListener('click', (event) => { // td를 클릭했을 때 o or x 가 나오게 하기
+                    if (event.target.textContent) return; // 만약 선택한 칸 안에 이미 글자가 있다면 반환(한번 클릭한건 다시 못 클릭하게 하는 용도)
+                    const second = first === 'O' ? 'X' : 'O'; // 조건부연산자. 입력값이 O면 다음에 X를 반환, 아니면 O를 반환
+                    event.target.textContent = first; // first 값 출력
+                    first = second; // 다음 클릭 때부터 기호 변경을 함
+                });
+                $tr.append($td); // tr에 td 추가
+            }
+            $table.append($tr); // table에 tr 추가
+        }
+        document.body.append($result); // body에 result 추가하기
+        document.body.append($table); // body에 table 추가하기
+    </script>
+</body>
+</html>
