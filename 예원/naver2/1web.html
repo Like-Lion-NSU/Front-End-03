@@ -43,10 +43,10 @@
                         </h3>
                         <span class="box int_pwd">
                         <input type="password" maxlength="20" class="int" id="pwd1">
-                        <span class="back_rock1" style="background-image: url(	https://static.nid.naver.com/images/ui/join/m_icon_pw_step.png);">
+                        <div class="lock1" style="background-image: url(	https://static.nid.naver.com/images/ui/join/m_icon_pw_step.png);"></div>
                             <!-- <img src="pwd1.png"> -->
                         </span>
-                        </span>
+                        
                     </div>
                     <!----비밀번호 확인-->
                     <div id="toppwd">
@@ -56,6 +56,7 @@
                         <span class="box int_pwd2">
                         <input type="password" maxlength="20" class="int" id="pwd2">
                         <span class="back_rock2">
+                            <div id="lock_2" style="background-image:url(https://static.nid.naver.com/images/ui/join/m_icon_pw_step.png)"></div>
                             <!-- <img src="pwd2.png"> -->
                         </span>
                         </span>
@@ -112,7 +113,7 @@
                         <h3 class="label_title">
                             <label for="gender">성별</label>
                         </h3>
-                        <div class="box _gender">
+                        <div class=" sele_gender">
                             <select id="gender" class="sel2">
                                 <option>성별</option>
                                 <option value="M">남성</option>
