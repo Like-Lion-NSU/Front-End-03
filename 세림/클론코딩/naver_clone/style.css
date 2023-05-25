@@ -74,7 +74,6 @@ main{
 .pwd{
     margin-top: 15px;
 }
-
 .pwd label{
     font-weight: bold;
 }
@@ -102,7 +101,7 @@ main{
 /* 비밀번호 재확인 */
 
 .repwd{
-    margin-top: 15px;
+    margin-top: 1px;
 }
 
 .repwd label{
@@ -120,7 +119,7 @@ main{
 .repwd h1{
     width: 25px;
     height: 25px;
-    background-position: -32px 0;
+    background-position: 26% 0;
     background-image: url("https://static.nid.naver.com/images/ui/join/m_icon_pw_step.png");
     background-size: 145px 85px;
     position: relative;

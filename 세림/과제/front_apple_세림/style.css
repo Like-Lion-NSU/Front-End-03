@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap);
+
+body{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.menu button{
+    background-color: black;
+    margin: 40px;
+    border: none;
+    box-shadow: none;
+    color: white;
+}
+.menu button:hover{
+    font-size: large;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.이미지, .글자{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #A8A8A8;
+}
+.img{
+    margin: 20px;
+}
+#임{
+    margin: 20px;
+}
+#텍{
+    margin: 10px;
+}
+#텍:visited{
+    color: black;
+}
+
+.상단바{ 
+    border-bottom: 1px solid #c5c5c5;
+}
+.상단바 #appleid{
+    font-size: x-large;
+    font-weight: bolder;
+    padding-left: 30px;
+}
+.상단바 #바바{
+    margin-top: 40px;
+    padding-left: 1150px;
+    color: #A8A8A8;
+    font-size: small;
+}
+#appleid생성{
+    font-weight: bolder;
+    font-size: x-large;
+    padding-bottom: 15px;
+}
+#하나의{
+    font-weight: bolder;
+}
+#뉴{
+    color: #A8A8A8;
+}
+#아이폰{
+    font-weight: bold;
+}
+#두가지{
+    font-weight: bold;
+}
+#더알아보기, #꺾{
+    font-weight: bold;
+    color: #0077ED;
+    font-size: larger;
+}
+#더알아보기:hover{
+    border-bottom: 1px solid #0077ED;
+}
+footer a, footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+
+#구입하기, #가입하기{
+    border-radius: 40px;
+    padding: 10px;
+    background-color: #0077ED;
+    border: none;
+    color: white;
+    margin: 10px;
+}
+#가입하기:hover{
+    font-size: medium;
+}
+.상단바{
+    display: flex;
+}
+.상단바 #바바{
+    text-align: right;
+}
+#firstname, #lastname{
+    height: 54px; width: 190px;
+    margin: 10px;
+}
+#대한민국, #tel, #date, #email, #password{
+    height: 54px; width: 414px;
+    margin: 10px;
+}
+#firstname:hover, #lastname:hover, #대한민국:hover, #tel:hover, #date:hover, #email:hover, #password:hover{
+    border: 1px solid #0077ED;
+}
+#firstname:focus, #lastname:focus, #대한민국:focus, #tel:focus, #date:focus, #email:focus, #password:focus{
+    border: 3px solid #0077ED;
+}
+#광고:hover{
+    filter: blur(5px) brightness(60%);
+}

@@ -129,4 +129,54 @@
 
 #### 3.3.3 props 기본값 설정: defaultProps
 > * props값을 따로 지정하지 않았을 때 보여 줄 기본값을 설정하는 defaultProps
-> * 
+>   ```
+>   const MyComponent = props => {
+>       return〈div〉안녕하세요, 제 이름은 {props.name}입니다.〈/div〉；
+>   };
+>   MyComponent.defaultProps = { 
+>        name： ‘기본 이름’
+>   }；
+>   ```
+
+#### 3.3.4 태그 사이의 내용을 보여주는 children
+> * childern : 태그 사이의 내용을 보여주는 props
+
+#### 3.3.5 비구조화 할당 문법을 통해 props 내부 값 추출하기
+> * 비구조화 할당: 객체에서 값을 추출하는 문법
+> * 파라미터가 객체라면 비구조화해서 사용하는 것
+> ```
+> const {name, children} = props;
+> ```
+
+#### 3.3.6 propTypes를 통한 props검증
+> * propTypes : props의 타입을 지정
+> * import PropTypes from 'porp-types'; 필요
+>   ```
+>   const MyComponent = ({ name, children }) => { return (...)；
+>   }；
+>   MyComponent.defaultProps = { name： ’기본 이름’ }；
+>   MyComponent.propTypes = { name： PropTypes.string }；
+>   ```
+> * name의 값은 무조건 문자열 형태로 전달해야됨을 의미
+> * isRequired은 필수로 propTypes을 지정해야함을 의미
+
+#### 3.3.7 클래스형 컴포넌트에서 props 사용하기
+> * 클래스형 컴포넌트에서 props를 사용할때는 render함수에서 this.props를 조회
+<hr/>
+
+### 3.4.2 함수형 컴포넌트에서 useState사용하기
+#### 3.4.2.1 배열 비구조화 할당
+> * 배열 안에 들어 있는 값을 쉽게 추출할 수 있도록 해주는 문법
+>   * 구조화 할당
+>       ```
+>       const array = [1,2]
+>       const one = array[1]
+>       ```
+>   * 비구조화 할당
+>       ```
+>       const array = [1,2]
+>       const [one, two] = array;
+>       ```
+#### 3.4.2.2 useState 사용하기
+> * 첫번쨰 인자로는 상태의 초깃값
+> * 두번쨰 인자로는 세터함소라고 불리는상태를 바꿔주는 함수

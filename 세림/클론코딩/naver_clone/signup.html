@@ -21,15 +21,17 @@
                         <span class="backurl">@naver.com</span>
                     </span>
                 </div>
-                <div class="pwd">
+                <div class="pwd" id="passwd">
                     <label for="비밀번호">비밀번호</label>
-                    <input type="text" required>
-                    <h1></h1>
+                    <input type="password" id="password" required>
+                    <h1 id="lock1"></h1>
+
                 </div>
-                <div class="repwd">
+                <div class="repwd" id="repasswd">
                     <label for="비밀번호 재확인">비밀번호 재확인</label>
-                    <input type="text" required>
-                    <h1></h1>
+                    <input type="password" id="repassword" required>
+                    <h1 id="lock2"></h1>
+
                 </div>
             </div>
             <div class="info">
@@ -107,5 +109,8 @@
             <span id="all">All Rights Reserved</span>
         </div>
     </footer>
+    <script src="naver.js">
+        
+    </script>
 </body>
 </html>
